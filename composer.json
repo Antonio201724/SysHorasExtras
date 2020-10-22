@@ -1,0 +1,10 @@
+{
+  "name": "control-horas-extras/php-mvc",
+  "description": "PHP MVC Boilerplate",
+  "autoload": {
+    "psr-4": {
+      "ControlHorasExtras\\PHP_MVC\\": "app/",
+      "Klein\\": "app/Libs/klein/src/Klein/"
+    }
+  }
+}
