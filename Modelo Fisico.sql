@@ -158,11 +158,13 @@ ALTER TABLE he.trabajador OWNER TO sybollfpmvrzeo;
 
 CREATE TABLE he.usuario (
     id_usuario bigint NOT NULL,
+    ci_trabajador integer NOT NULL,
     nombre_usuario character varying NOT NULL,
     apellido_usuario character varying NOT NULL,
     usuario character varying,
     "contraseña" character varying NOT NULL,
     status boolean NOT NULL,
+    rol character NOT NULL,
     tipo_usuario integer NOT NULL
 );
 
