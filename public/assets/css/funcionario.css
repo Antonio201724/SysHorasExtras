@@ -80,6 +80,7 @@
   color: white;
   position: relative;
   text-decoration: none;
+
   border: 0px;
 }
 
@@ -90,12 +91,6 @@
 
 .circle-right-btn {
   display: block;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: 1px solid #fefefe;
-  margin-top: 24px;
-  font-size: 22px;
   padding: 5px 10px;
   height: 42px;
   margin: 10px auto;
@@ -190,7 +185,7 @@ div.omrs-input-group {
   left: 0;
   right: 0;
   z-index: 99;
-  background-color: #fff;
+  background-color: black;
 }
 
 /*hide the items when the select box is closed:*/
@@ -200,6 +195,6 @@ div.omrs-input-group {
 
 .select-items div:hover,
 .same-as-selected {
-  background-color: #fff;
+  background-color: blue;
 }
 /*SELECT*/
